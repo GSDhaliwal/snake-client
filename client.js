@@ -11,6 +11,7 @@ const connect = function() {
     console.log("Successfully connected to game server")
     //sending message to ther server
     conn.write('Name: GSD');
+    conn.write('Say: I ISSS SSSSNEK');
   })
 
   // interpret incoming data as text
