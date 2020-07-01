@@ -25,6 +25,7 @@ const connect = function() {
   return conn;
 }
 
-module.exports = connect;
+module.exports = { 
+  connect
+};
 
-//To set the name, we simply have to send the server a message in the form: Name: SNK where SNK can be any three alpha-numeric characters. The name is then shown to everyone on the game server.
